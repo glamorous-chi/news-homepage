@@ -33,13 +33,13 @@ Users should be able to:
 
 ### Screenshot
 
-![News Home Page](./Screenshot_2024-06-15%20Frontend%20Mentor%20News%20homepage.png)
+![News Home Page](./Screenshot_2024-06-15%20Frontend%20Mentor%20News%20homepage(1).png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://news-homepage-tau-tawny.vercel.app/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://news-homepage-tau-tawny.vercel.app/)
 
 
 ### Built with
@@ -57,6 +57,7 @@ Users should be able to:
 I learned how to use CSS Grid, CSS Grid properties, and Flexbox. Most importantly, I learned how to use Utility classes and Custom properties to my advantage. I also learnt how to do a reset in order to remove some default styles that came with some HTML elements. For example, HTML Paragraphs come with a default margin of 16px at the top and bottom, and a reset removes such, so I can give my own styles as I wish.
 
 ```css
+/* Using Grid Template areas to achieve the design layout */
 .section-grid{
     grid-template-areas:
     "one one four"
@@ -73,12 +74,12 @@ I will love to sharpen my skills when it comes to building a good design structu
 ### Useful resources
 
 - [CSS Grid Tutorial](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=485s) - This helped me understand CSS Grid.
-- [CSS Flexbox Tutorial](https://www.youtube.com/watch?v=u044iM9xsWU&t=987s) - This is helped me understand CSS Flexbox betetr.
+- [CSS Flexbox Tutorial](https://www.youtube.com/watch?v=u044iM9xsWU&t=987s) - This is helped me understand Flexbox better.
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/glamorous-chi)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/glamorous-chi)
 
 ## Acknowledgments
 
