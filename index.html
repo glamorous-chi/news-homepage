@@ -31,10 +31,10 @@
       }
     </style>
   </head>
-  <body class="">
+  <body>
     <div class="home-page">
       <header>
-        <nav class="flex-justify">
+        <div class="flex">
           <div>
             <img
               src="./assets/images/logo.svg"
@@ -42,18 +42,26 @@
               style="height: 2.2rem"
             />
           </div>
-          <ul class="flex list">
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
-          </ul>
-          <div class="menu">
-            <img src="./assets/images/icon-menu.svg" alt="" />
-          </div>
-        </nav>
+          <button class="menu" aria-controls="primary-navigation" aria-expanded="false"></button>
+          <nav>
+            <ul id = "primary-navigation" data-visible = "false" class="flex nav-list">
+              <li>Home</li>
+              <li>New</li>
+              <li>Popular</li>
+              <li>Trending</li>
+              <li>Categories</li>
+            </ul>
+            <ul id = "primary-navigation" data-visible = "false" class="flex nav-list2">
+              <li>Home</li>
+              <li>New</li>
+              <li>Popular</li>
+              <li>Trending</li>
+              <li>Categories</li>
+            </ul>
+          </nav>
+        </div>
       </header>
+      <div id="overlay" class="overlay"></div>
 
       <main>
         <!-- <div class="grid section-grid">
@@ -261,5 +269,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/glamorous-chi">Chioma</a>.
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
