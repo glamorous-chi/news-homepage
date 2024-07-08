@@ -109,7 +109,6 @@ body {
   background-color: hsl(var(--clr-Off-white));
   font-family: var(--ff-inter);
   font-weight: var(--fw-400);
-  /* overflow: hidden ; */
 }
 h1 {
   font-size: var(--fs-700);
@@ -228,7 +227,7 @@ h4 {
   cursor: pointer;
 }
 .menu[aria-expanded="true"] {
-  background-image: url(./assets//images/icon-menu-close.svg);
+  background-image: url(./assets/images/icon-menu-close.svg);
   top: 2.2rem;
 }
 
